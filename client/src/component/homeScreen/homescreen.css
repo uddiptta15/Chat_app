@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=DM+Sans&family=Pacifico&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+.homeScreen {
+    position: relative;
+    height: 88vh;
+    width: 88vw;
+    margin: auto;
+    border: 5vh solid #3F72AF;
+    background-color: #F6F4F0;
+    border-radius: 7px;
+}
+
+.inputDivSample {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navBar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F7F7;
+
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navHeader h1 {
+
+    color: #010101;
+    font-size: 32px;
+    font-family: 'Pacifico', cursive;
+    margin: 10px;
+}
+
+.navHeader h2 {
+    color: darkcyan;
+    font-size: 34px;
+    font-family: 'Lora', serif;
+    margin-left: 24vw;
+}
+
+.LR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5vh;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#login {
+    display: inline;
+    color: #084cf7;
+    font-size: 23px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#register {
+    display: inline;
+    color: #1b55eb;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#login:hover {
+    display: inline;
+    color: #084cf7;
+    font-size: 23px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#register:hover {
+    display: inline;
+    color: #1b55eb;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.bodyHome {
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    width: 100%;
+    background-color: #DBE2EF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sampleChat {
+    height: 35vh;
+    width: 27vw;
+    background-color: #b0c5de;
+    position: relative;
+}
+
+.left {
+    background-color: #7985d6;
+    box-shadow: 0.5px -0.5px 1.5px 1px #a5aee8;
+    margin: 14px;
+    float: left;
+    clear: both;
+
+}
+
+.right {
+    background-color: #2d9380;
+    box-shadow: 0.5px -0.5px 1.5px 1px #3b897a;
+    float: right;
+    clear: both;
+    margin: 10px;
+}
+
+.description {
+    background-color: #a5aee8;
+    color: rgb(10, 9, 9);
+    height: 60vh;
+    width: 45vw;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 1px -0.4px 0.5px 1px #F0F5F9;
+    transition: all 1sec ease-in;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.description p h1 {
+    border-bottom: 3px solid #3f3d3d;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+
+.inputDiv {
+    width: 100%;
+    height: 10%;
+    background-color: #C9D6DF;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.inputDiv form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+
+}
+
+#sendMessage {
+    height: 80%;
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 0.4px -0.3px 0.5px 0.2px rgb(163, 160, 160);
+
+}
+
+#sendButton {
+    height: 80%;
+    width: 15%;
+    margin-left: 1.4%;
+    font-size: 60%;
+    text-align: -webkit-center;
+}
