@@ -24,8 +24,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F9F7F7;
-
+    background-color: #FFFDF9;
+    box-shadow: 0.5px -0.5px 1.5px 1px #5f5e5e;
 }
 
 .navHeader {
@@ -108,16 +108,20 @@ ul {
     background-color: #DBE2EF;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
 }
 
 .sampleChat {
-    height: 35vh;
-    width: 27vw;
+    height: 26vh;
+    width: 30vw;
     background-color: #b0c5de;
     position: relative;
+    margin: 35px auto;
+    /* margin-bottom: 25px; */
+
+
 }
 
 .left {
@@ -138,27 +142,31 @@ ul {
 }
 
 .description {
-    background-color: #a5aee8;
-    color: rgb(10, 9, 9);
-    height: 60vh;
-    width: 45vw;
-    border-radius: 5px;
+    background-color: #424874;
+    color: #E7E9EB;
+    height: 24vh;
+    width: 88vw;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    /* border-radius: 5px; */
     font-size: 30px;
-    box-shadow: 1px -0.4px 0.5px 1px #F0F5F9;
-    transition: all 1sec ease-in;
+    /* box-shadow: 1px -0.4px 0.5px 1px #F0F5F9; */
+    /* transition: all 1sec ease-in; */
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .description p h1 {
+    padding-bottom: 5px;
     border-bottom: 3px solid #3f3d3d;
     margin-right: 40px;
     margin-left: 40px;
 }
 
 
-
+/* 
 .inputDiv {
     width: 100%;
     height: 10%;
@@ -176,12 +184,14 @@ ul {
     height: 100%;
     width: 70%;
 
-}
 
-#sendMessage {
-    height: 80%;
-    width: 85%;
+} */
+
+#sendMessageDemo {
+    height: 26px;
+    width: 80%;
     border-radius: 5px;
+    margin-left: 14px;
     box-shadow: 0.4px -0.3px 0.5px 0.2px rgb(163, 160, 160);
 
 }

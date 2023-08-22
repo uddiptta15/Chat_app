@@ -61,7 +61,7 @@ function LogIn() {
                 <span><input type='checkbox' onClick={() => { setVisibility(!passwordVisibility) }} id='checkBox' /></span><span>show password</span>
             </div>
             <button type='submit' id='loginButton' onClick={(e) => handleLogin(e)}>Log in</button>
-            <span>Not registered?<Link to="/register" id="register">Register</Link></span>
+            <span>Not registered? <Link to="/register" id="register">Register</Link></span>
         </form>
     </>)
 }

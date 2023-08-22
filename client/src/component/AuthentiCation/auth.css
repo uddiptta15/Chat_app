@@ -41,11 +41,12 @@
 }
 
 .LogIn input {
-    width: 75%;
-    height: 10%;
+    width: 80%;
+    height: 18%;
     padding-left: 5px;
     border: 1px solid grey;
     border-radius: 4px;
+    font-size: large;
 
 }
 
@@ -58,8 +59,9 @@
 
 #checkBox {
     height: 100%;
-    width: 65%;
+    width: 75%;
     display: inline;
+    font-size: large;
 }
 
 .CheckBox {
